@@ -1,7 +1,7 @@
 # RISC-V CPU Implementation in Verilog
 This is a simple (single cycle datapath) 32-bit RISC-V compatable CPU. I plan to add more complexity this project progresses, as this project is meant as a way for myself to learn about computer architecture and logic design. As such, all suggestions/corrections/improvements are welcome.
 
-Note that none of the code in this project is AI generated in order to improve the learning experience. Most of this information comes from online resources, which I will do my best to keep track of in the [Resources/References](https://github.com/SamuelWang05/RISC-V-CPU?tab=readme-ov-file#resourcesreferences) section of this readme.
+Note that none of the code in this project is AI generated in order to improve the learning experience. Most of this information comes from online resources, which I will do my best to keep track of in the [Resources/References](https://github.com/SamuelWang05/RISC-V-CPU?tab=readme-ov-file#resourcesreferences) section of this readme. For a quick "cheat sheet", my notes can be found in the [Definitions](https://github.com/SamuelWang05/RISC-V-CPU#definitions) section
 
 ## Goals/Progress updates:
 - Currently working on these components: Mux, ALU
@@ -21,9 +21,9 @@ Currently supported op codes:
 ## Definitions
 There are many terms (often confusing) when tackling a large project like this. This section is dedicated for my notes, with the hope that it will be useful for anyone who stumbles onto this project.
 
-- **CPU (Central processing unit)**: General purpose processing component that executes instructions of a program. The general components that make up differenet CPUs (for example, an Intel CPU vs RISC-V CPU) are pretty similar.
+- **CPU (Central processing unit)**: General purpose processing component that executes instructions of a program. The components that make up differenet CPUs are generally similar (ALU, Registers, etc. which are explained later).
 
-  Most CPUs go through a "Fetch, Decode, Execute" cycle - they will fetch an instruction, decode what that instruction means, and then execute it. There are creative ways on how to make this Fetch, Decode, Execute cycle faster (pipelining, branch prediction, caches, etc.) that have allowed modern-day CPUs to become much faster.
+  Most CPUs go through a "Fetch, Decode, Execute" cycle - they will fetch (take in) an instruction, decode what that instruction means, and then execute it. There are countless creative and brilliant ways on how to make this Fetch, Decode, Execute cycle faster (pipelining, branch prediction, caches, etc.) that have allowed modern-day CPUs to become much faster.
 
 - **Opcode (operation code)**: A special pattern of binary values that are passed to specific components in the CPU. This is how the CPU is able to take machine code (1's and 0's) and execute it.
 - **ALU (Arithmetic Logic Unit)**: A component of the CPU that handles arithmetic logic, such as adding, subtracting, AND'ing, etc.
