@@ -37,4 +37,6 @@ There are many terms (often confusing) when tackling a large project like this. 
 
 [Lecture on main RISC-V CPU components](https://passlab.github.io/CSE564/notes/lecture08_RISCV_Impl.pdf)
 
-[Detailed Explanation of RISC-V single cycle datapath architecture](https://medium.com/@hassu20083/instruction-set-architecture-risc-v-single-cycle-datapath-8277381b87da)
+[RISC-V Instructions Cheat Sheet](https://projectf.io/posts/riscv-cheat-sheet/)
+
+[RISC-V Instruction Set Reference](https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/notebooks/RISCV/RISCV_CARD.pdf)
