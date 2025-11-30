@@ -1,7 +1,7 @@
 # RISC-V CPU Implementation in Verilog
 This is a simple (single cycle datapath) 32-bit RISC-V compatable CPU. I plan to add more complexity this project progresses, as this project is meant as a way for myself to learn about computer architecture and logic design. As such, all suggestions/corrections/improvements are welcome.
 
-Note that none of the code in this project is AI generated in order to improve the learning experience. Most of this information comes from online resources, which I will do my best to keep track of in the [Resources/References](https://github.com/SamuelWang05/RISC-V-CPU/edit/main/README.md#resourcesreferences) section of this readme.
+Note that none of the code in this project is AI generated in order to improve the learning experience. Most of this information comes from online resources, which I will do my best to keep track of in the [Resources/References](https://github.com/SamuelWang05/RISC-V-CPU?tab=readme-ov-file#resourcesreferences) section of this readme.
 
 ## Goals/Progress updates:
 - Currently working on these components: Mux, ALU
